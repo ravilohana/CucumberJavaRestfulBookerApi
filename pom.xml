@@ -135,7 +135,7 @@
             </build>
         </profile>
         <profile>
-            <id>sequential tests</id>
+            <id>sequential</id>
             <build>
                 <plugins>
                     <plugin>
