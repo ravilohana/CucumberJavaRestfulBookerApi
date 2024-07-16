@@ -13,9 +13,9 @@ Feature: Simple HTTP GET Call
     Then API Response should have HTTP Status Code 200
     Examples:
       | BookingID |
-      | 255    |
+      | 150       |
       | 167       |
-      | 4       |
+      | 4         |
 
 
   Scenario Outline: Make HTTP GET Call to fetch single unavailable booking id and validate status code is 404 Not Found (Negative Test Case)
