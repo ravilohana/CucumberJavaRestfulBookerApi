@@ -24,11 +24,11 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: API Tests
-        run: mvn clean test -Pparallel
+        run: mvn clean test -Psequential -q
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.4
         with:
           name: allure-results
-          path: allure-results/
+          path: allure-results
         # The desired behavior if no files are found using the provided path.
