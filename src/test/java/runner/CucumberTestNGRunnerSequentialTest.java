@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
                 ,"pretty",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
         glue = {"stepsDefs"},
-        features = "src/test/resources/features"
+        features = "src/test/resources/features/update_booking_api.feature"
 )
 
 public class CucumberTestNGRunnerSequentialTest extends AbstractTestNGCucumberTests{

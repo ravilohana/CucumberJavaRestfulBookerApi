@@ -38,9 +38,9 @@ public class UpdateBookingStepDefs {
                 requestDataMap.get("lastName"),
                 Integer.parseInt(requestDataMap.get("totalPrice")),
                 Boolean.parseBoolean(requestDataMap.get("depositPaid")),
-                requestDataMap.get("checkInPlusDays"),
                 checkInDate,
-                checkOutDate
+                checkOutDate,
+                requestDataMap.get("additionalneeds")
         );
 
 
